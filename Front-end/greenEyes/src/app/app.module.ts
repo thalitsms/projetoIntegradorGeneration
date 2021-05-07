@@ -3,9 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MatSliderModule } from '@angular/material/slider';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { HomeComponent } from './home/home.component';
@@ -35,7 +37,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     BrowserAnimationsModule,
     MatIconModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatSliderModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
