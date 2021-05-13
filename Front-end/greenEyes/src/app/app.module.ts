@@ -27,6 +27,8 @@ import { CategoriaComponent } from './categoria/categoria.component';
 import { ProdutoComponent } from './produto/produto.component';
 import { HomeProdutoComponent } from './home-produto/home-produto.component';
 import { AlertsComponent } from './alerts/alerts.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
+import { PesquisaComponent } from './pesquisa/pesquisa.component';
 
 
 @NgModule({
@@ -46,7 +48,9 @@ import { AlertsComponent } from './alerts/alerts.component';
     CategoriaComponent,
     ProdutoComponent,
     HomeProdutoComponent,
-    AlertsComponent
+    AlertsComponent,
+    UserEditComponent,
+    PesquisaComponent
   ],
   imports: [
     BrowserModule,
