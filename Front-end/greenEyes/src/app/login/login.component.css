@@ -1,9 +1,11 @@
 #img-bg{
     background-color: #0d2622;
-    z-index: 1;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .btnEnter{
@@ -15,6 +17,7 @@
     padding: 7px;
     font-size: 12pt;
     border-width: medium;
+
 }
 
 .btnEnter:hover{
@@ -22,15 +25,20 @@
     background-color: rgb(15, 85, 15);
 }
 
-.loginBox{
-  background-color: rgb(255, 255, 255);
-  border-width: 10px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 8%;
+.bg-box{
+  background-color: rgba(0, 0, 0, 0.034);
 }
 
-.fill{
-  height:100%;
+.bg-box:active{
+  color: white;
 }
 
+.fs-13{
+  font-size: 13px;
+
+}
+
+a, .cad{
+  color: #28b151;
+}
 

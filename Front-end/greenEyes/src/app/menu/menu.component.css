@@ -1,6 +1,4 @@
-.w-px {
-  width: 480px;
-}
+
 .bg-menu {
   background-color: #0d2622;
   font-style:oblique;
@@ -12,9 +10,9 @@
 }
 
 .bmenu2{
-  color: #fff;
+  color: #f5f5f5ab;
   border-radius: 25px;
-  border-color: #fff;
+  border-color: #f5f5f5ab;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -48,12 +46,29 @@ i:hover,
 mat-icon {
   cursor: pointer;
 }
-.fa-searchy {
-  background-color: #0d2622;
-  color: aliceblue;
-}
 
 .font-s {
   font-size: 20px;
   color: #fff;
+}
+
+.w-px {
+  width: 680px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
 }
